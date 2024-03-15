@@ -1,0 +1,25 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\nikit\source\repos\ComputerGraphics2\ComputerGraphics2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\nikit\source\repos\ComputerGraphics2\ComputerGraphics2\x64\Debug\kernel.cu.obj "C:\Users\nikit\source\repos\ComputerGraphics2\ComputerGraphics2\kernel.cu" 
+C:\Users\nikit\source\repos\ComputerGraphics2\ComputerGraphics2\kernel.cu(98): warning #951-D: return type of function "main" must be "int"
+    void main() {
+         ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\nikit\source\repos\ComputerGraphics2\ComputerGraphics2\kernel.cu(98): warning #951-D: return type of function "main" must be "int"
+    void main() {
+         ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  kernel.cu
+  tmpxft_00004cc4_00000000-7_kernel.cudafe1.cpp
+C:\Users\nikit\source\repos\ComputerGraphics2\ComputerGraphics2\kernel.cu(89): warning C4244: инициализация: преобразование "_Rep" в "double", возможна потеря данных
+          with
+          [
+              _Rep=__int64
+          ]
+     Создается библиотека C:\Users\nikit\source\repos\ComputerGraphics2\x64\Debug\ComputerGraphics2.lib и объект C:\Users\nikit\source\repos\ComputerGraphics2\x64\Debug\ComputerGraphics2.exp
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  ComputerGraphics2.vcxproj -> C:\Users\nikit\source\repos\ComputerGraphics2\x64\Debug\ComputerGraphics2.exe
